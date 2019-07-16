@@ -1,0 +1,21 @@
+Scenario 1: If all urls in url.txt file are valid
+
+[av@adarsh-centos ~]$ python download_image url.txt
+
+271947.jpg downloaded.
+
+24174.jpg downloaded.
+
+All files downloaded Successfully...
+
+
+
+Scenario 2: If any url is not valid
+
+[av@adarsh-centos ~]$ python download_image url.txt
+
+271947.jpg downloaded.
+
+24174.jpg downloaded.
+
+Oops..!!! one or more files could not be downloaded. ERRRRROR --> Invalid URL u'cnxmzc': No schema supplied. Perhaps you meant http://cnxmzc?
