@@ -1,2 +1,2 @@
 python==3.x
-requests==2.21
+requests==2.31.0
